@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RockmanExGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+130092de69345b0506e6d884d36622435d9c5296")]
 [assembly: System.Reflection.AssemblyProductAttribute("RockmanExGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RockmanExGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

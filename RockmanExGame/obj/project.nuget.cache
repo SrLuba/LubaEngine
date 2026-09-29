@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8PCtKnW3lIE=",
+  "dgSpecHash": "m2PlolyhVEg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luba\\source\\repos\\RockmanEx\\RockmanExGame\\RockmanExGame.csproj",
+  "projectFilePath": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\RockmanExGame\\RockmanExGame.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luba\\.nuget\\packages\\imgui.net\\1.91.6.1\\imgui.net.1.91.6.1.nupkg.sha512",
     "C:\\Users\\Luba\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luba\\source\\repos\\RockmanEx\\RockmanExGame\\RockmanExGame.csproj": {}
+    "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\RockmanExGame\\RockmanExGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luba\\source\\repos\\RockmanEx\\LubaEngine\\LubaEngine.csproj": {
+    "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\LubaEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luba\\source\\repos\\RockmanEx\\LubaEngine\\LubaEngine.csproj",
+        "projectUniqueName": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\LubaEngine.csproj",
         "projectName": "LubaEngine",
-        "projectPath": "C:\\Users\\Luba\\source\\repos\\RockmanEx\\LubaEngine\\LubaEngine.csproj",
+        "projectPath": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\LubaEngine.csproj",
         "packagesPath": "C:\\Users\\Luba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luba\\source\\repos\\RockmanEx\\LubaEngine\\obj\\",
+        "outputPath": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luba\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -355,14 +355,14 @@
         }
       }
     },
-    "C:\\Users\\Luba\\source\\repos\\RockmanEx\\RockmanExGame\\RockmanExGame.csproj": {
+    "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\RockmanExGame\\RockmanExGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luba\\source\\repos\\RockmanEx\\RockmanExGame\\RockmanExGame.csproj",
+        "projectUniqueName": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\RockmanExGame\\RockmanExGame.csproj",
         "projectName": "RockmanExGame",
-        "projectPath": "C:\\Users\\Luba\\source\\repos\\RockmanEx\\RockmanExGame\\RockmanExGame.csproj",
+        "projectPath": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\RockmanExGame\\RockmanExGame.csproj",
         "packagesPath": "C:\\Users\\Luba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luba\\source\\repos\\RockmanEx\\RockmanExGame\\obj\\",
+        "outputPath": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\RockmanExGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luba\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -380,8 +380,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Luba\\source\\repos\\RockmanEx\\LubaEngine\\LubaEngine.csproj": {
-                "projectPath": "C:\\Users\\Luba\\source\\repos\\RockmanEx\\LubaEngine\\LubaEngine.csproj"
+              "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\LubaEngine.csproj": {
+                "projectPath": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\LubaEngine.csproj"
               }
             }
           }

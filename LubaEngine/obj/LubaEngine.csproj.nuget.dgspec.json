@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luba\\source\\repos\\RockmanEx\\LubaEngine\\LubaEngine.csproj": {}
+    "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\LubaEngine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luba\\source\\repos\\RockmanEx\\LubaEngine\\LubaEngine.csproj": {
+    "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\LubaEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luba\\source\\repos\\RockmanEx\\LubaEngine\\LubaEngine.csproj",
+        "projectUniqueName": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\LubaEngine.csproj",
         "projectName": "LubaEngine",
-        "projectPath": "C:\\Users\\Luba\\source\\repos\\RockmanEx\\LubaEngine\\LubaEngine.csproj",
+        "projectPath": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\LubaEngine.csproj",
         "packagesPath": "C:\\Users\\Luba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luba\\source\\repos\\RockmanEx\\LubaEngine\\obj\\",
+        "outputPath": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luba\\AppData\\Roaming\\NuGet\\NuGet.Config",
