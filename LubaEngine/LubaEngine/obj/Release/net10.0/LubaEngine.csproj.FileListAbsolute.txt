@@ -1,0 +1,13 @@
+C:\Users\Luba\source\repos\RockmanEx\LubaEngine\bin\Release\net10.0\LubaEngine.deps.json
+C:\Users\Luba\source\repos\RockmanEx\LubaEngine\bin\Release\net10.0\LubaEngine.dll
+C:\Users\Luba\source\repos\RockmanEx\LubaEngine\bin\Release\net10.0\LubaEngine.pdb
+C:\Users\Luba\source\repos\RockmanEx\LubaEngine\obj\Release\net10.0\LubaEngine.csproj.AssemblyReference.cache
+C:\Users\Luba\source\repos\RockmanEx\LubaEngine\obj\Release\net10.0\LubaEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luba\source\repos\RockmanEx\LubaEngine\obj\Release\net10.0\LubaEngine.AssemblyInfoInputs.cache
+C:\Users\Luba\source\repos\RockmanEx\LubaEngine\obj\Release\net10.0\LubaEngine.AssemblyInfo.cs
+C:\Users\Luba\source\repos\RockmanEx\LubaEngine\obj\Release\net10.0\LubaEngine.csproj.CoreCompileInputs.cache
+C:\Users\Luba\source\repos\RockmanEx\LubaEngine\obj\Release\net10.0\LubaEngine.dll
+C:\Users\Luba\source\repos\RockmanEx\LubaEngine\obj\Release\net10.0\refint\LubaEngine.dll
+C:\Users\Luba\source\repos\RockmanEx\LubaEngine\obj\Release\net10.0\LubaEngine.pdb
+C:\Users\Luba\source\repos\RockmanEx\LubaEngine\obj\Release\net10.0\ref\LubaEngine.dll
+C:\Users\Luba\source\repos\RockmanEx\LubaEngine\obj\Release\net10.0\LubaEngine.csproj.Up2Date

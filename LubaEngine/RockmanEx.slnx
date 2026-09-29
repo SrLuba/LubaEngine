@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LubaEngine/LubaEngine.csproj" />
+  <Project Path="RockmanExGame/RockmanExGame.csproj" Id="35bfdb0d-b2cc-4d88-9098-5f7b450f2878" />
+</Solution>
