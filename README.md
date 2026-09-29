@@ -23,3 +23,9 @@ by other projects.
 - Fixed-point sub-pixel math for deterministic, frame-exact gameplay
 - Platform-independent bytecode VM for game logic
 - Long-term goal: runtimes for retro hardware (PS1 as baseline, Dreamcast)
+
+## About AI usage
+I'm completely against vibe coding.
+All code in Luba Engine is written by hand. No AI tools are used to generate or autocomplete code.
+AI is used only to look up library documentation and to discuss design ideas. 
+All implementation is my own.
