@@ -5,6 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,5 +13,4 @@
     <PackageReference Include="Raylib-cs" Version="8.1.0" />
     <PackageReference Include="rlImgui-cs" Version="3.2.0" />
   </ItemGroup>
-
 </Project>

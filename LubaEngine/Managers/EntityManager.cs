@@ -12,7 +12,8 @@ namespace LubaEngine.Managers
     public class EntityManager : IEngineSystem
 	{
         public List<Entity> entities;
-
+        public void UnlinkedUpdate()
+        { }
         public void AddEntity(Entity entity) {
             this.entities.Add(entity);
         }

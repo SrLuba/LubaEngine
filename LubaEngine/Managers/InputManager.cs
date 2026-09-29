@@ -31,6 +31,10 @@ namespace LubaEngine.Managers
         }
 
 
+        public void UnlinkedUpdate()
+        {
+
+        }
         public bool GetDown(int id) => (input & (1u << id)) != 0;
         public bool GetPressed(int id) => (input & ~lastInput & (1u << id)) != 0;
         public bool GetReleased(int id) => (~input & lastInput & (1u << id)) != 0;

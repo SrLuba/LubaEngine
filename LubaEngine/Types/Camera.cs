@@ -14,6 +14,7 @@ namespace LubaEngine.Types
     }
     public class Camera
     {
+        public bool enabled = true;
         public int id;
         public static Camera main;
         public static Camera debugCamera;
@@ -30,6 +31,7 @@ namespace LubaEngine.Types
 
         int screenWidth;
         public bool isCentered;
+     
         public Camera(bool isMain, bool isDebug, Vector2 resolution, bool isCentered)
         {
             if (isMain) main = this;
@@ -61,6 +63,7 @@ namespace LubaEngine.Types
             int y = (int)((Raylib.GetRenderHeight() - height) / 2f);
 
             this.viewport = new Rectangle(x, y, width, height);
+            this.enabled = true;
         }
 
         public void SetOutputPosition(Vector2 position)
@@ -90,6 +93,10 @@ namespace LubaEngine.Types
 
         public void InternalRender()
         {
+            if (!this.enabled) {
+                queries.Clear();
+                return;
+            }
             queries.Sort((a, b) => a.layer.CompareTo(b.layer));
 
             this.cam.Target = new Vector2(MathF.Floor(position.X), MathF.Floor(position.Y));
@@ -99,20 +106,19 @@ namespace LubaEngine.Types
             Raylib.ClearBackground(this.backgroundColor);
 
             Raylib.BeginMode2D(cam);
-
             foreach (RenderQueryBase query in queries)
             {
                 query.Render();
             }
-
             Raylib.EndMode2D();
             Raylib.EndTextureMode();
+
             queries.Clear();
         }
 
         public void DrawToScreen()
         {
-
+            if (!this.enabled) return;
             int width = (int)resolution.X * scale;
             int height = (int)resolution.Y * scale;
 

@@ -110,7 +110,9 @@ namespace LubaEngine.Static
                         string sfx = "";
                         sfx = d.frames[sFrame + f].sfx;
 
-                        ani.frames.Add(new SpriteAnimationFrame(sFrame + f, d.frames[sFrame + f].duration, sfx));
+                        int duration = (int)MathF.Max(1, 
+                              MathF.Round(d.frames[sFrame + f].duration * 60f / 1000f));
+                        ani.frames.Add(new SpriteAnimationFrame(sFrame + f, duration, sfx));
                     }
 
                     ani.loop = tag.loop;

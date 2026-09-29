@@ -36,9 +36,6 @@ internal static class Program
         // Setup Engine Systems
         EngineCore.GetComponent<SceneManager>().RegisterScene("test", () => new TestScene());
         EngineCore.GetComponent<SceneManager>().LoadScene("test");
-
         EngineCore.Run(); // Start Engine, this enters a loop.
-
-
     }
 }

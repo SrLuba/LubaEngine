@@ -172,37 +172,18 @@ namespace LubaEngine.Components.ImGUIComponents
             if (profiler)
             {
                 ImGui.Begin("LE - Profiler");
-                float[] values = frameTimes.ToArray();
 
-                ImGui.PlotLines(
-                    "##FrameTimeGraph",
-                    ref values[0],
-                    values.Length,
-                    0,
-                    null,
-                    6f,
-                    10f,
-                    new Vector2(128, 12)
-                );
-
-                float frameTime = values[values.Length - 1];
-                Vector4 color;
-
-                if (frameTime < 16.67f)
-                    color = new Vector4(0.3f, 1f, 0.4f, 1f); // verde
-                else if (frameTime < 33.33f)
-                    color = new Vector4(1f, 0.8f, 0.2f, 1f); // amarillo
-                else
-                    color = new Vector4(1f, 0.2f, 0.2f, 1f); // rojo
 
                 ImGui.Text($"FPS {EngineCore.fps}");
-                ImGui.PushStyleColor(ImGuiCol.Text, color);
-                ImGui.Text($"Frame Time {frameTime:F2} ms");
-                ImGui.PopStyleColor();
+      
                 ImGui.Text($"Update {ProfilerData.updateMS:F2}ms");
                 ImGui.Text($"Draw {ProfilerData.drawMS:F2}ms");
                 ImGui.Text($"Draw Calls {ProfilerData.drawCalls}");
                 ImGui.Text($"Render Queries {ProfilerData.renderqueries}");
+                ImGui.Text($"GC Collection Gen0 Count {GC.CollectionCount(0)}");
+                ImGui.Text($"GC Collection Gen1 Count {GC.CollectionCount(1)}");
+                ImGui.Text($"GC Collection Gen2 Count {GC.CollectionCount(2)}");
+
                 ImGui.End();
             }
         }

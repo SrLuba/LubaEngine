@@ -22,7 +22,7 @@ namespace LubaEngine.Managers
     {
 
         public List<ImGUIUserInterface> userInterfaces;
-
+        public ConsoleUI consoleUi;
 
         public ImGUIManager(bool appendDebug) {
             this.userInterfaces = new List<ImGUIUserInterface>();
@@ -42,21 +42,27 @@ namespace LubaEngine.Managers
         {
          
         }
-
-         void AppendDebugUI() {
+        public void Update()
+        {
+            
+        }
+        public void UnlinkedUpdate()
+        {
+            for (int i = 0; i < userInterfaces.Count; i++)
+            {
+                this.userInterfaces[i].Update();
+            }
+        }
+        void AppendDebugUI() {
             // Add Debug UI
-            AddUI(new ConsoleUI());
+
+            consoleUi = new ConsoleUI();
+            AddUI(consoleUi);
             AddUI(new Inspector());
             AddUI(new UIHierarchy());
         }
 
 
-        public void Update()
-        {
-            for (int i = 0; i < userInterfaces.Count; i++) {
-                this.userInterfaces[i].Update();
-            }
-        }
         private void DrawDockSpace()
         {
             ImGuiWindowFlags windowFlags =

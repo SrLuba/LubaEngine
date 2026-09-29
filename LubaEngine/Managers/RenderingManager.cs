@@ -23,11 +23,20 @@ namespace LubaEngine.Rendering
             this.cameras = new List<Camera>();
 
             Camera baseCamera = new Camera(true, false, new Vector2(384, 216), true);
-            baseCamera.id = cameras.Count - 1;
             AddCamera(baseCamera); // base camera
-
+            
+            // debug camera is set on the first screen by default, but should be changed whenever dualmode is active
+            Camera debugCamera = new Camera(false, true, new Vector2(1920, 1080), true);
+            debugCamera.enabled = false;
+            debugCamera.isCentered = false;
+            debugCamera.SetViewport(new Rectangle(0, 0, 1920, 1080));
+            AddCamera(debugCamera);
         }
 
+        public void UnlinkedUpdate()
+        {
+
+        }
         public void Start()
         {
 
@@ -131,6 +140,7 @@ namespace LubaEngine.Rendering
 
         public void AddCamera(Camera camera) { 
             this.cameras.Add(camera);
+            camera.id = cameras.Count - 1;
             Logger.Log($"Rendering Manager {this.GetType().FullName} - Added Camera {this.cameras.Count-1}");
 
         }
@@ -141,14 +151,14 @@ namespace LubaEngine.Rendering
         }
         public void Draw()
         {
-            if (Camera.debugCamera != null)
+            if (Camera.debugCamera != null && Camera.debugCamera.enabled)
             {
                 float x = Camera.main.position.X - (Camera.main.renderTexture.Texture.Width / 2);
                 float y = Camera.main.position.Y - (Camera.main.renderTexture.Texture.Height / 2);
                 float x2 = Camera.main.renderTexture.Texture.Width;
                 float y2 = Camera.main.renderTexture.Texture.Height;
 
-                QuickDrawBox(new Vector2(x, y), new Vector2(x2, y2), Color.Gold, 2, 1);
+                QuickDrawBox(new Vector2(x, y), new Vector2(x2, y2), Color.Gold, 2, Camera.debugCamera.id);
                 Camera.debugCamera.position = Camera.main.position;
             }
             for (int i = 0; i < cameras.Count; i++)

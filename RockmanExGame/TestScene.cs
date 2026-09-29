@@ -101,13 +101,7 @@ namespace RockmanExGame
             map.position.X = 0;
             map.position.Y = 96;
 
-            float xPos = camera.position.X;
-            float yPos = camera.position.Y;
-
-            x.position = new Vector2(
-                    xPos,
-                    yPos
-                );
+          
         }
 
     }

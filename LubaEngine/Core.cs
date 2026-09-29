@@ -29,6 +29,7 @@ namespace LubaEngine
         void Awake();
         void Start();
         void Update();
+        void UnlinkedUpdate();
         void Draw();
         void OnGUI();
     }
@@ -60,26 +61,15 @@ namespace LubaEngine
         }
 
         public static void Update() {
-            if (Raylib.IsKeyPressed(KeyboardKey.F11))
-            {
-                Raylib.ToggleBorderlessWindowed();
-            }
+      
             for (int i = 0; i < components.Count; i++)
             {
                 components[i].Update();
             }
 
-            timer += Raylib.GetFrameTime();
-            if (timer >= 1f) {
-
-                fps = programCounter - lastProgramCounter;
-                lastProgramCounter = programCounter;
-                timer = 0f;
-            }
 
             Raylib.SetWindowTitle($"{ctx.window.title} - Healthy {fps}FPS");
 
-            programCounter++;
         }
 
         public static void Draw() {
@@ -101,7 +91,7 @@ namespace LubaEngine
 
             accumulator = 0;
             lastTime = Raylib.GetTime();
-
+            unsafe { Raylib.SetTraceLogCallback(&RaylibLogBridge.OnRaylibLog); }
             Logger.Initialize();
             Logger.Log($"-----------------------------------------------------");
             Logger.Log($"EngineCore - Loading Core");
@@ -123,6 +113,8 @@ namespace LubaEngine
             // Adding Required Components
             Logger.Log($"EngineCore - Loading Entity Manager");
             AddComponent(new EntityManager());
+            Logger.Log($"EngineCore - Loading Console Manager");
+            AddComponent(new ConsoleManager());
             Logger.Log($"EngineCore - Loading Rendering Manager");
             AddComponent(new RenderingManager());
             Logger.Log($"EngineCore - Loading ImGUI Manager");
@@ -130,15 +122,12 @@ namespace LubaEngine
             Logger.Log($"EngineCore - Loading Scene Manager");
             AddComponent(new SceneManager());
             Logger.Log($"EngineCore - Loading Input Manager");
-
             AddComponent(new InputManager());
-            Logger.Log($"-----------------------------------------------------");
 
         }
         public static void Run() {
             Logger.Log($"-----------------------------------------------------");
             Logger.Log($"EngineCore - Starting");
-
 
             running = true;
             ProfilerData.drawMS = 0;
@@ -152,12 +141,32 @@ namespace LubaEngine
             io.ConfigFlags |= ImGuiConfigFlags.DockingEnable;
             Logger.Log($"EngineCore - Starting Engine Loop");
 
+
             while (running && !Raylib.WindowShouldClose())
             {
+
+                if (Raylib.IsKeyPressed(KeyboardKey.F11))
+                {
+                    Raylib.ToggleBorderlessWindowed();
+                }
+                for (int i = 0; i < components.Count; i++)
+                {
+                    components[i].UnlinkedUpdate();
+                }
+
+                if (timer >= 1f)
+                {
+
+                    fps = programCounter - lastProgramCounter;
+                    lastProgramCounter = programCounter;
+                    timer = 0f;
+                }
+
                 double now = Raylib.GetTime();
                 accumulator += now - lastTime;
                 lastTime = now;
-
+                timer += Raylib.GetFrameTime();
+           
 
                 int steps = 0;
 
@@ -183,6 +192,8 @@ namespace LubaEngine
                 ProfilerData.drawMS = drawWatch.Elapsed.TotalMilliseconds;
                 ProfilerData.drawCalls = 0;
                 ProfilerData.renderqueries = 0;
+                programCounter++;
+
             }
 
             Logger.Log($"EngineCore - Unloading Asset Manager");
@@ -191,7 +202,6 @@ namespace LubaEngine
 
             rlImGui.Shutdown();
             Logger.Log($"EngineCore - Closing Window");
-            Logger.Log($"-----------------------------------------------------");
 
 
             Logger.WriteToFile();
