@@ -67,7 +67,7 @@ namespace LubaEngine.Components.EntityComponents
         }
         public void Draw() {
             if (!visible) return;
-            this.query = new RenderQuery("", this.rect, parent.position + offset, this.layer);
+            this.query = new RenderQuery("", this.rect, parent.position.ToPixelVector() + offset, this.layer);
             this.query.UpdateTexture(cTex, false);
 
          
@@ -80,11 +80,11 @@ namespace LubaEngine.Components.EntityComponents
                 .cameras[cameraId]
                 .AddQuery(this.query);
 
-            float centerX = parent.position.X + (rect.Width / 2);
-            float centerY = parent.position.Y + (rect.Height / 2);
+            float centerX = parent.position.PixelX + (rect.Width / 2);
+            float centerY = parent.position.PixelY + (rect.Height / 2);
 
-            float bX = parent.position.X + (rect.Width / 2);
-            float bY = parent.position.Y + (rect.Height);
+            float bX = parent.position.PixelX + (rect.Width / 2);
+            float bY = parent.position.PixelY + (rect.Height);
 
 
             // Sprite Renderer Debug
@@ -96,7 +96,7 @@ namespace LubaEngine.Components.EntityComponents
                     1);
 
                 EngineCore.GetComponent<RenderingManager>().QuickDrawBox(
-                            new Vector2(parent.position.X, parent.position.Y),
+                            new Vector2(parent.position.PixelX, parent.position.PixelY),
                             new Vector2(rect.Width, rect.Height),
                             Color.Violet,
                             2,
@@ -111,14 +111,22 @@ namespace LubaEngine.Components.EntityComponents
                 );
 
                 EngineCore.GetComponent<RenderingManager>().QuickText(
-                        new Vector2(parent.position.X + rect.Width, parent.position.Y),
-                        $"pos (x: {parent.position.X:F2}, y: {parent.position.Y:F2})",
+                        new Vector2(parent.position.PixelX + rect.Width, parent.position.PixelY),
+                        $"pos (x: {parent.position.PixelX:F2}, y: {parent.position.PixelY:F2})",
+                        2,
+                        Color.White,
+                     1
+                    );
+
+                EngineCore.GetComponent<RenderingManager>().QuickText(
+                        new Vector2(parent.position.PixelX + rect.Width, parent.position.PixelY + (12)),
+                        $"subpixel (x: {parent.position.x:F2}, y: {parent.position.y:F2})",
                         2,
                         Color.White,
                      1
                     );
                 EngineCore.GetComponent<RenderingManager>().QuickText(
-                     new Vector2(parent.position.X + rect.Width, parent.position.Y + 8),
+                     new Vector2(parent.position.PixelX + rect.Width, parent.position.PixelY + (24)),
                      $"rect (rectW: {rect.Width}, rectH: {rect.Height})",
                      2,
                      Color.White,

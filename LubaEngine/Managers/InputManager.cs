@@ -31,7 +31,7 @@ namespace LubaEngine.Managers
         }
 
 
-        public void UnlinkedUpdate()
+        public void FrameUpdate()
         {
 
         }
@@ -39,22 +39,40 @@ namespace LubaEngine.Managers
         public bool GetPressed(int id) => (input & ~lastInput & (1u << id)) != 0;
         public bool GetReleased(int id) => (~input & lastInput & (1u << id)) != 0;
 
-        string ToHexBytes(uint v) =>
-    $"{(v >> 24) & 0xFF:X2} {(v >> 16) & 0xFF:X2} {(v >> 8) & 0xFF:X2} {v & 0xFF:X2}";
+        
         public void OnGUI()
         {
+
             ImGui.Text("Raw Data: ");
-            ImGui.Text(ToHexBytes(input));
-            ImGui.Text(ToHexBytes(lastInput));
-            ImGui.Text(ToHexBytes(lastpressed));
-            ImGui.Text(ToHexBytes(lastreleased));
+            ImGui.Text("ci:"+ Utils.Text.ToHexBytesNoSpaces(input));
+            ImGui.SameLine();
+
+            ImGui.Text("li:"+ Utils.Text.ToHexBytesNoSpaces(lastInput));
+            ImGui.SameLine();
+
+            ImGui.Text("lp: "+Utils.Text.ToHexBytesNoSpaces(lastpressed));
+            ImGui.SameLine();
+
+            ImGui.Text("lr: "+Utils.Text.ToHexBytesNoSpaces(lastreleased));
             ImGui.Separator();
 
             for (int i = 0; i < keys.Count; i++)
                 ImGui.Text($"{keys[i]}: {((input & (1u << i)) != 0 ? "X" : "-")}");
         }
-        public void Update()
+        public void Tick()
         {
+            if (ImGui.GetIO().WantCaptureKeyboard)
+            {
+                input = 0;
+                lastInput = 0;
+                pressed = 0;
+                released = 0;
+                lastpressed = 0;
+                lastreleased = 0;
+
+                return;
+            }
+
             lastInput = input;
             input = 0;
             for (int i = 0; i < keys.Count; i++)

@@ -35,12 +35,14 @@ namespace LubaEngine.Managers
 
             entityManager = EngineCore.GetComponent<EntityManager>();
             this.currentScene = null; // we make sure current scene is null
+
+            EngineCore.GetComponent<ConsoleManager>().Register("scene", "scene command group", 0, args => SceneCommand(args));
+
         }
-        public void UnlinkedUpdate()
+        public void FrameUpdate()
         {
         }
         public void Start() {
-            EngineCore.GetComponent<ConsoleManager>().Register("scene", "scene command group", 0, args => SceneCommand(args));
         }
         public void SceneCommand(string[] args) {
             ConsoleManager console = EngineCore.GetComponent<ConsoleManager>();
@@ -62,13 +64,29 @@ namespace LubaEngine.Managers
                         console.Log($"argument 1 (scene name) not specified");
                         return;
                     }
-                    LoadScene(args[1]);
-                    console.Log($"loading scene {args[1]}");
+                    string sceneName = args[1];
+                    if (scenes.ContainsKey(sceneName))
+                    {
+                        LoadScene(sceneName);
+                        console.Log($"loading scene {sceneName}");
+                    }
+                    else {
+                        console.Log($"scene {sceneName} not found");
+                    }
                     break;
                 case "reload":
-                    LoadScene(currentSceneName);
-                    console.Log($"reloading scene {currentSceneName}");
 
+                    if (currentScene != null) { 
+                        LoadScene(currentSceneName);
+                    }
+                    console.Log(currentScene!=null? $"reloading scene {currentSceneName}" : "there's not a scene to reload (current scene is null)");
+
+                    break;
+                default:
+                    console.PrintWarning("Usage: ");
+                    console.PrintWarning("scene load 'sceneName'");
+                    console.PrintWarning("scene list");
+                    console.PrintWarning("scene reload");
                     break;
             }
       
@@ -87,7 +105,7 @@ namespace LubaEngine.Managers
             }
             ImGui.Separator();
         }
-        public void Update() {
+        public void Tick() {
             currentScene?.Update();
         }
 

@@ -23,6 +23,8 @@ namespace LubaEngine.Managers
 
         public List<ImGUIUserInterface> userInterfaces;
         public ConsoleUI consoleUi;
+        public bool showDemo = false;
+
 
         public ImGUIManager(bool appendDebug) {
             this.userInterfaces = new List<ImGUIUserInterface>();
@@ -42,11 +44,11 @@ namespace LubaEngine.Managers
         {
          
         }
-        public void Update()
+        public void Tick()
         {
             
         }
-        public void UnlinkedUpdate()
+        public void FrameUpdate()
         {
             for (int i = 0; i < userInterfaces.Count; i++)
             {
@@ -60,6 +62,7 @@ namespace LubaEngine.Managers
             AddUI(consoleUi);
             AddUI(new Inspector());
             AddUI(new UIHierarchy());
+            AddUI(new ViewportToolbar());
         }
 
 
@@ -103,7 +106,10 @@ namespace LubaEngine.Managers
         public void Draw()
         {
             rlImGui.Begin();
+         
             DrawDockSpace();
+            if (showDemo)
+                ImGui.ShowDemoWindow(ref showDemo);   
             for (int i = 0; i < userInterfaces.Count; i++)
             {
                 this.userInterfaces[i].Draw();

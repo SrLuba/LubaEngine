@@ -108,8 +108,8 @@ namespace LubaEngine.Components.EntityComponents
 
             timer += 1;
 
-            int duration =
-                currentAnimation.frames[frame].duration;
+            int duration = (int)MathF.Max(1,
+                              MathF.Round(currentAnimation.frames[frame].duration * EngineCore.tps / 1000f));
 
             if (timer >= duration)
             {

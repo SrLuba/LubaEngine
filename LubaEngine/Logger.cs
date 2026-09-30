@@ -43,6 +43,7 @@ namespace LubaEngine
         {
             string fMessage = "PC: " + EngineCore.programCounter.ToString() + " | " + log.data;
             logs.Add(new Log(fMessage));
+            stdout.WriteLine(fMessage);     // consola real, NO Console.WriteLine
 
             File.AppendAllText(
             Path.Combine(AppContext.BaseDirectory, "log.txt")
@@ -62,6 +63,7 @@ namespace LubaEngine
         public static void Log(string message)
         {
             string fMessage = "PC: " + EngineCore.programCounter.ToString() + " | " + message;
+            stdout.WriteLine(fMessage);     // consola real, NO Console.WriteLine
 
             Log log = new Log(fMessage);
             logs.Add(log);

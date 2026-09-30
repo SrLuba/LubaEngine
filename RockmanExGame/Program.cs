@@ -23,11 +23,20 @@ internal static class Program
         {
             width = 1360,
             height = 768,
-            title = "Luba Retro Engine"
+            title = "Megaman X: Maverick Saga"
         };
 
         EngineProperties engineProperties = new EngineProperties("RockmanEx", devMode, globalFolder, window,
-            new List<KeyboardKey> { KeyboardKey.Right, KeyboardKey.Left, KeyboardKey.Up, KeyboardKey.Down, KeyboardKey.Z, KeyboardKey.X, KeyboardKey.C});
+            new List<KeyboardKey> { 
+                KeyboardKey.Right, 
+                KeyboardKey.Left, 
+                KeyboardKey.Up, 
+                KeyboardKey.Down, 
+                KeyboardKey.Z, 
+                KeyboardKey.X, 
+                KeyboardKey.C
+            });
+
         engineProperties.targetFPS = 120;
 
         // Setup engine

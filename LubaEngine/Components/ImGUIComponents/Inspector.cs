@@ -36,22 +36,14 @@ namespace LubaEngine.Components.ImGUIComponents
             ImGui.Text("Position");
             ImGui.SameLine();
 
-            float x = selectedEntity.position.X;
-            float y = selectedEntity.position.Y;
+            float x = selectedEntity.position.PixelX;
+            float y = selectedEntity.position.PixelY;
+            float sx = selectedEntity.position.x;
+            float sy = selectedEntity.position.y;
 
-            ImGui.SetNextItemWidth(100);
-            if (ImGui.InputFloat("X", ref x))
-            {
-                selectedEntity.position.X = x;
-            }
+            ImGui.Text($"x: {x} y: {y}");
+            ImGui.Text($"sx: {sx} sy: {sy}");
 
-            ImGui.SameLine();
-
-            ImGui.SetNextItemWidth(100);
-            if (ImGui.InputFloat("Y", ref y))
-            {
-                selectedEntity.position.Y = y;
-            }
             ImGui.Separator();
             ImGui.Text("Rotation");
 

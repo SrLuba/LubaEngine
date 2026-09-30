@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Raylib_cs;
+using System;
 using System.Collections.Generic;
 using System.Numerics;
 using System.Text;
@@ -11,21 +12,19 @@ namespace LubaEngine.Types
         void Start();
         void Update();
         void Draw();
-
         void OnGUI();
-
         void OnDestroy();
     }
 
     public class Entity
     {
         public string name;
-        public Vector2 position;
+        public SBVector2 position;
         public float rotation;
         public List<IEntityComponent> components;
         public bool destroyed = false;
 
-        public Entity(string name, Vector2 position)
+        public Entity(string name, SBVector2 position)
         {
             this.name = name;
             this.position = position;
@@ -42,6 +41,18 @@ namespace LubaEngine.Types
             IEntityComponent.Start();
 
             return IEntityComponent;
+        }
+
+        public bool HasComponent<T>() where T : IEntityComponent {
+            foreach (IEntityComponent IEntityComponent in components)
+            {
+                if (IEntityComponent is T typedComponent)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         public T GetComponent<T>(int index)

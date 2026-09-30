@@ -23,7 +23,8 @@ namespace LubaEngine.Static
 			TextureManager.Initialize();
 			SpriteManager.Initialize();
             ShaderManager.Initialize();
-		}
+            BackgroundManager.Initialize();
+        }
 
         public static void Unload() {
             TextureManager.UnloadAll();
@@ -109,10 +110,7 @@ namespace LubaEngine.Static
                     {
                         string sfx = "";
                         sfx = d.frames[sFrame + f].sfx;
-
-                        int duration = (int)MathF.Max(1, 
-                              MathF.Round(d.frames[sFrame + f].duration * 60f / 1000f));
-                        ani.frames.Add(new SpriteAnimationFrame(sFrame + f, duration, sfx));
+                        ani.frames.Add(new SpriteAnimationFrame(sFrame + f, d.frames[sFrame + f].duration, sfx));
                     }
 
                     ani.loop = tag.loop;
@@ -135,6 +133,60 @@ namespace LubaEngine.Static
 
                 return resource;
             }
+        }
+        public static class BackgroundManager {
+            public static Dictionary<string, BackgroundData> backgrounds = new();
+
+            public static void Initialize()
+            {
+                LoadAll();
+
+                Console.WriteLine("Background Manager initialized");
+            }
+
+            public static void LoadAll() {
+                string path = Path.Combine(assetPath, "data", "background");
+                string[] files = Directory.GetFiles(path, "*.json");
+                for (int i = 0; i < files.Length; i++)
+                {
+                    Load(Path.GetFileNameWithoutExtension(files[i]));
+                }
+            }
+
+            public static void Load(string file) {
+                if (backgrounds.ContainsKey(file.ToLower()))
+                {
+                    Console.WriteLine(
+                        $"Bacgkround '{file.ToLower()}' is already loaded."
+                    );
+
+                    return;
+                }
+
+                string path = Path.Combine(assetPath, "data", "background", file + ".json");
+                BackgroundData d = JsonConvert.DeserializeObject<BackgroundData>(File.ReadAllText(path));
+
+                backgrounds[file] = d;
+
+                Console.WriteLine(
+                    $"Loaded Background: {file}"
+                );
+            }
+            public static BackgroundData GetBackground(string key)
+            {
+                if (!backgrounds.TryGetValue(
+                    key,
+                    out BackgroundData background))
+                {
+                    throw new KeyNotFoundException(
+                        $"Background '{key}' was not found."
+                    );
+                }
+
+                return background;
+            }
+
+
         }
         public static class ShaderManager
         {

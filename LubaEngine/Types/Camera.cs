@@ -20,7 +20,7 @@ namespace LubaEngine.Types
         public static Camera debugCamera;
         public Camera2D cam;
         public RenderTexture2D renderTexture;
-        public Vector2 position;
+        public SBVector2 position;
         public Vector2 resolution;
         public Color backgroundColor;
         public int scale = 1;
@@ -29,6 +29,7 @@ namespace LubaEngine.Types
         public CameraScalingMode scalingMode;
         public Rectangle viewport;
 
+        public float zoom;
         int screenWidth;
         public bool isCentered;
      
@@ -44,9 +45,10 @@ namespace LubaEngine.Types
 
             this.backgroundColor = Color.Black;
 
+            this.zoom = 1f;
             this.cam = new Camera2D
             {
-                Target = position,
+                Target = position.ToPixelVector(),
                 Offset = resolution / 2f,
                 Rotation = 0f,
                 Zoom = 1f
@@ -97,9 +99,12 @@ namespace LubaEngine.Types
                 queries.Clear();
                 return;
             }
+
+            
             queries.Sort((a, b) => a.layer.CompareTo(b.layer));
 
-            this.cam.Target = new Vector2(MathF.Floor(position.X), MathF.Floor(position.Y));
+            this.cam.Target = position.ToPixelVector();
+            this.cam.Zoom = this.zoom;
             this.screenWidth = StaticCore.twoMonitor ? Raylib.GetRenderWidth() / 2 : Raylib.GetRenderWidth();
 
             Raylib.BeginTextureMode(this.renderTexture);

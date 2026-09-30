@@ -21,7 +21,7 @@ namespace LubaEngine.Components.EntityComponents
         public Vector2 parallaxEffect;
         Texture2D tex;
         Entity parent;
-        int layer;
+        public int layer;
         public Vector2 parallaxMultiplier;
         public Vector2 initialParallaxMultiplier;
         public string texKey;
@@ -64,7 +64,7 @@ namespace LubaEngine.Components.EntityComponents
             if (this.renderType == BackgroundRenderType.Image)
             {
                 float offset =
-                 -(cam.position.X * parallaxEffect.X)
+                 -(cam.position.PixelX * parallaxEffect.X)
                  % tex.Width;
 
                 if (offset > 0)
@@ -77,13 +77,13 @@ namespace LubaEngine.Components.EntityComponents
                 )
                 {
                     float worldX =
-                        cam.position.X + x;
+                        cam.position.PixelX + x;
 
                     RenderQuery query = new RenderQuery(
                         "",
                         new Vector2(
                             worldX,
-                            parent.position.Y
+                            parent.position.PixelY
                         ),
                         layer
                     );
@@ -109,7 +109,7 @@ namespace LubaEngine.Components.EntityComponents
                         parallaxEffect.X + initialParallaxMultiplier.X;
 
                     float offset =
-                        -(cam.position.X * parallax)
+                        -(cam.position.PixelX * parallax)
                         % tex.Width;
 
                     if (offset > 0)
@@ -117,7 +117,7 @@ namespace LubaEngine.Components.EntityComponents
 
                     float localY =
                         initialParallaxMultiplier.Y +
-                        (parallaxEffect.Y * cam.position.Y) *
+                        (parallaxEffect.Y * cam.position.PixelY) *
                         (y * parallaxMultiplier.Y) +
                         y;
 
@@ -128,11 +128,11 @@ namespace LubaEngine.Components.EntityComponents
                     )
                     {
                         float worldX =
-                            cam.position.X + x;
+                            cam.position.PixelX + x;
 
                         Vector2 position = new Vector2(
                             worldX,
-                            parent.position.Y + localY
+                            parent.position.PixelY + localY
                         );
 
                         RenderQuery query = new RenderQuery(
@@ -161,7 +161,7 @@ namespace LubaEngine.Components.EntityComponents
         }
         public void OnGUI() {
             Camera cam = Camera.main;
-            Vector2 pos = parent.position + new Vector2(parallaxEffect.X * cam.position.X, parallaxEffect.Y * cam.position.Y);
+            Vector2 pos = parent.position.ToPixelVector() + new Vector2(parallaxEffect.X * cam.position.PixelX, parallaxEffect.Y * cam.position.PixelY);
 
             ImGui.Text($"Render Type: {this.renderType.ToString()}");
             ImGui.Text($"Position x: {pos.X} y: {pos.Y}");

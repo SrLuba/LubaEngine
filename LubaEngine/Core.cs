@@ -28,8 +28,8 @@ namespace LubaEngine
     public interface IEngineSystem {
         void Awake();
         void Start();
-        void Update();
-        void UnlinkedUpdate();
+        void Tick();
+        void FrameUpdate();
         void Draw();
         void OnGUI();
     }
@@ -40,14 +40,15 @@ namespace LubaEngine
         static public int programCounter = 0;
         static int lastProgramCounter = 0;
         static float timer = 0f;
-        public static int fps = 0;
+        public static int fps = 60;
+        public static int tps = 60;
         public static EngineProperties ctx;
 
-        public const double Step = 1.0 / 60;
+        public static double Step = 0;
         public const int MaxStepPerFrame = 5;
         static double accumulator = 0;
         static double lastTime;
-
+        public static bool isReady = false;
         public static void AddComponent(IEngineSystem IEntityComponent) {
             Console.WriteLine($"Adding IEntityComponent {IEntityComponent.GetType().FullName}");
             components.Add(IEntityComponent);
@@ -64,7 +65,7 @@ namespace LubaEngine
       
             for (int i = 0; i < components.Count; i++)
             {
-                components[i].Update();
+                components[i].Tick();
             }
 
 
@@ -87,16 +88,17 @@ namespace LubaEngine
             Raylib.EndDrawing();
         }
 
+        public static ConsoleManager cManager;
         public static void Setup(EngineProperties ctx) {
-
+            isReady = false;
             accumulator = 0;
             lastTime = Raylib.GetTime();
-            unsafe { Raylib.SetTraceLogCallback(&RaylibLogBridge.OnRaylibLog); }
             Logger.Initialize();
             Logger.Log($"-----------------------------------------------------");
             Logger.Log($"EngineCore - Loading Core");
 
             EngineCore.ctx = ctx;
+            unsafe { Raylib.SetTraceLogCallback(&RaylibLogBridge.OnRaylibLog); }
 
             Raylib.InitWindow(
              ctx.window.width,
@@ -104,17 +106,20 @@ namespace LubaEngine
              ctx.window.title
             );
 
-            Raylib.SetTargetFPS(ctx.targetFPS);
+            SetFPS(ctx.targetFPS);
+            SetTPS(ctx.targetFPS);
+
             Logger.Log($"EngineCore - Loading Asset Manager");
 
             AssetManager.Initialize(ctx);
-
+            
 
             // Adding Required Components
             Logger.Log($"EngineCore - Loading Entity Manager");
             AddComponent(new EntityManager());
             Logger.Log($"EngineCore - Loading Console Manager");
-            AddComponent(new ConsoleManager());
+            cManager = new ConsoleManager();
+            AddComponent(cManager);
             Logger.Log($"EngineCore - Loading Rendering Manager");
             AddComponent(new RenderingManager());
             Logger.Log($"EngineCore - Loading ImGUI Manager");
@@ -123,7 +128,11 @@ namespace LubaEngine
             AddComponent(new SceneManager());
             Logger.Log($"EngineCore - Loading Input Manager");
             AddComponent(new InputManager());
+            Logger.Log($"EngineCore - Loading Background Manager");
+            AddComponent(new BackgroundManager());
 
+            cManager.Register("setfps", "sets max fps", 1, args => { SetFPS(int.Parse(args[0])); });
+            cManager.Register("settps", "sets max ticks per second", 1, args => { SetTPS(int.Parse(args[0])); });
         }
         public static void Run() {
             Logger.Log($"-----------------------------------------------------");
@@ -144,6 +153,8 @@ namespace LubaEngine
 
             while (running && !Raylib.WindowShouldClose())
             {
+                isReady = true;
+                Step = 1.0 / tps;
 
                 if (Raylib.IsKeyPressed(KeyboardKey.F11))
                 {
@@ -151,7 +162,7 @@ namespace LubaEngine
                 }
                 for (int i = 0; i < components.Count; i++)
                 {
-                    components[i].UnlinkedUpdate();
+                    components[i].FrameUpdate();
                 }
 
                 if (timer >= 1f)
@@ -165,7 +176,7 @@ namespace LubaEngine
                 double now = Raylib.GetTime();
                 accumulator += now - lastTime;
                 lastTime = now;
-                timer += Raylib.GetFrameTime();
+                timer += Raylib.GetFrameTime(); 
            
 
                 int steps = 0;
@@ -208,8 +219,20 @@ namespace LubaEngine
             Raylib.CloseWindow();
 
         }
-
-        public static void SetMaxFPS(int fps) {
+        public static void SetTPS(int tTps)
+        {
+            if (tps <= 0) {
+                cManager.PrintError("value should be greater than 0 (v>=0)");
+                return;
+            }
+            tps = tTps;
+        }
+        public static void SetFPS(int fps) {
+            if (fps <= 0)
+            {
+                cManager.PrintError("value should be greater than 0 (v>=0)");
+                return;
+            }
             Raylib.SetTargetFPS(fps);
         }
     }

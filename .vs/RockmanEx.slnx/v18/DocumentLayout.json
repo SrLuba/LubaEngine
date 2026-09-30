@@ -3,16 +3,132 @@
   "WorkspaceRootPath": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\components\\imguicomponents\\viewporttoolbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\components\\imguicomponents\\viewporttoolbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\managers\\renderingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\managers\\renderingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\managers\\imguimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\managers\\imguimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\components\\imguicomponents\\inspector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\components\\imguicomponents\\inspector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\managers\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\managers\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\spriteresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\spriteresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\components\\entitycomponents\\spriterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\components\\entitycomponents\\spriterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BFDB0D-B2CC-4D88-9098-5F7B450F2878}|RockmanExGame\\RockmanExGame.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\rockmanexgame\\testscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BFDB0D-B2CC-4D88-9098-5F7B450F2878}|RockmanExGame\\RockmanExGame.csproj|solutionrelative:rockmanexgame\\testscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\static\\assetmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\static\\assetmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35BFDB0D-B2CC-4D88-9098-5F7B450F2878}|RockmanExGame\\RockmanExGame.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\rockmanexgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35BFDB0D-B2CC-4D88-9098-5F7B450F2878}|RockmanExGame\\RockmanExGame.csproj|solutionrelative:rockmanexgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\managers\\consolemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\managers\\consolemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\components\\entitycomponents\\backgroundrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\components\\entitycomponents\\backgroundrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\managers\\backgroundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\managers\\backgroundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\sbvector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\sbvector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\managers\\entitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\managers\\entitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\components\\entitycomponents\\spriteanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\components\\entitycomponents\\spriteanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\static\\staticcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\static\\staticcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\binding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\binding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\palettematerial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\palettematerial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\renderquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\renderquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\backgrounddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\backgrounddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\components\\imguicomponents\\uicomponentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\components\\imguicomponents\\uicomponentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\components\\imguicomponents\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\components\\imguicomponents\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\rayliblogbridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,74 +137,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\core\\engineproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\core\\engineproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\static\\staticcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\static\\staticcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\managers\\imguimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\managers\\imguimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\managers\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\managers\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\components\\imguicomponents\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\components\\imguicomponents\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\managers\\consolemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\managers\\consolemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\managers\\entitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\managers\\entitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\managers\\renderingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\managers\\renderingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\components\\imguicomponents\\uicomponentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\components\\imguicomponents\\uicomponentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\static\\assetmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\static\\assetmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\renderquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\renderquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\spriteresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\spriteresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BFDB0D-B2CC-4D88-9098-5F7B450F2878}|RockmanExGame\\RockmanExGame.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\rockmanexgame\\testscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35BFDB0D-B2CC-4D88-9098-5F7B450F2878}|RockmanExGame\\RockmanExGame.csproj|solutionrelative:rockmanexgame\\testscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|c:\\users\\luba\\documents\\github\\lubaengine\\lubaengine\\types\\palettematerial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EDF717-8475-8A77-FA3F-C3EBADFD39D9}|LubaEngine\\LubaEngine.csproj|solutionrelative:lubaengine\\types\\palettematerial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,58 +146,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RaylibLogBridge.cs",
-              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\RaylibLogBridge.cs",
-              "RelativeDocumentMoniker": "LubaEngine\\RaylibLogBridge.cs",
-              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\RaylibLogBridge.cs",
-              "RelativeToolTip": "LubaEngine\\RaylibLogBridge.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ViewportToolbar.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\ImGUIComponents\\ViewportToolbar.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Components\\ImGUIComponents\\ViewportToolbar.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\ImGUIComponents\\ViewportToolbar.cs",
+              "RelativeToolTip": "LubaEngine\\Components\\ImGUIComponents\\ViewportToolbar.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwCUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T23:30:16.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SceneManager.cs",
-              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\SceneManager.cs",
-              "RelativeDocumentMoniker": "LubaEngine\\Managers\\SceneManager.cs",
-              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\SceneManager.cs",
-              "RelativeToolTip": "LubaEngine\\Managers\\SceneManager.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwBYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T22:01:33.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StaticCore.cs",
-              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Static\\StaticCore.cs",
-              "RelativeDocumentMoniker": "LubaEngine\\Static\\StaticCore.cs",
-              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Static\\StaticCore.cs",
-              "RelativeToolTip": "LubaEngine\\Static\\StaticCore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T14:34:13.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EngineProperties.cs",
-              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Core\\EngineProperties.cs",
-              "RelativeDocumentMoniker": "LubaEngine\\Types\\Core\\EngineProperties.cs",
-              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Core\\EngineProperties.cs",
-              "RelativeToolTip": "LubaEngine\\Types\\Core\\EngineProperties.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T23:44:56.729Z",
+              "WhenOpened": "2026-09-30T11:48:18.424Z",
               "EditorCaption": ""
             },
             {
@@ -160,7 +169,7 @@
               "RelativeDocumentMoniker": "LubaEngine\\Core.cs",
               "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Core.cs",
               "RelativeToolTip": "LubaEngine\\Core.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAcwF0AAABQAAAAAAAAAA==",
+              "ViewState": "AgIAANMAAAAAAAAAAAAuwOcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-28T23:34:38.369Z",
               "EditorCaption": ""
@@ -168,64 +177,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\RockmanExGame\\Program.cs",
-              "RelativeDocumentMoniker": "RockmanExGame\\Program.cs",
-              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\RockmanExGame\\Program.cs",
-              "RelativeToolTip": "RockmanExGame\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwCUAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T23:42:30.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Logger.cs",
-              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Logger.cs",
-              "RelativeDocumentMoniker": "LubaEngine\\Logger.cs",
-              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Logger.cs",
-              "RelativeToolTip": "LubaEngine\\Logger.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAA8wEIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T23:54:19.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "RenderingManager.cs",
               "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\RenderingManager.cs",
               "RelativeDocumentMoniker": "LubaEngine\\Managers\\RenderingManager.cs",
               "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\RenderingManager.cs",
               "RelativeToolTip": "LubaEngine\\Managers\\RenderingManager.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAMAAAAAAAAAAAADwv9wAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-29T21:59:23.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "InputManager.cs",
-              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\InputManager.cs",
-              "RelativeDocumentMoniker": "LubaEngine\\Managers\\InputManager.cs",
-              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\InputManager.cs",
-              "RelativeToolTip": "LubaEngine\\Managers\\InputManager.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "SpriteRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\EntityComponents\\SpriteRenderer.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Components\\EntityComponents\\SpriteRenderer.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\EntityComponents\\SpriteRenderer.cs",
+              "RelativeToolTip": "LubaEngine\\Components\\EntityComponents\\SpriteRenderer.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAqwG4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T23:31:31.789Z",
+              "WhenOpened": "2026-09-29T23:40:28.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
+              "Title": "Inspector.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\ImGUIComponents\\Inspector.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Components\\ImGUIComponents\\Inspector.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\ImGUIComponents\\Inspector.cs",
+              "RelativeToolTip": "LubaEngine\\Components\\ImGUIComponents\\Inspector.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwCQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T23:40:31.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SpriteResource.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\SpriteResource.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Types\\SpriteResource.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\SpriteResource.cs",
+              "RelativeToolTip": "LubaEngine\\Types\\SpriteResource.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAqwGcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T21:57:17.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ImGUIManager.cs",
               "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\ImGUIManager.cs",
               "RelativeDocumentMoniker": "LubaEngine\\Managers\\ImGUIManager.cs",
               "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\ImGUIManager.cs",
               "RelativeToolTip": "LubaEngine\\Managers\\ImGUIManager.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAIA6wC4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAcwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-29T22:16:48.422Z",
               "EditorCaption": ""
@@ -233,134 +242,318 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "EntityManager.cs",
-              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\EntityManager.cs",
-              "RelativeDocumentMoniker": "LubaEngine\\Managers\\EntityManager.cs",
-              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\EntityManager.cs",
-              "RelativeToolTip": "LubaEngine\\Managers\\EntityManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCgAAAAAAAAAAAAAAA==",
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Logger.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Logger.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Logger.cs",
+              "RelativeToolTip": "LubaEngine\\Logger.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T22:17:47.553Z",
+              "WhenOpened": "2026-09-28T23:54:19.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ConsoleManager.cs",
-              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\ConsoleManager.cs",
-              "RelativeDocumentMoniker": "LubaEngine\\Managers\\ConsoleManager.cs",
-              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\ConsoleManager.cs",
-              "RelativeToolTip": "LubaEngine\\Managers\\ConsoleManager.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAwEYAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "SceneManager.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\SceneManager.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Managers\\SceneManager.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\SceneManager.cs",
+              "RelativeToolTip": "LubaEngine\\Managers\\SceneManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T22:17:58.978Z",
+              "WhenOpened": "2026-09-29T22:01:33.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ConsoleUI.cs",
-              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\ImGUIComponents\\ConsoleUI.cs",
-              "RelativeDocumentMoniker": "LubaEngine\\Components\\ImGUIComponents\\ConsoleUI.cs",
-              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\ImGUIComponents\\ConsoleUI.cs",
-              "RelativeToolTip": "LubaEngine\\Components\\ImGUIComponents\\ConsoleUI.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA7wCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T06:46:47.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UIComponentList.cs",
-              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\ImGUIComponents\\UIComponentList.cs",
-              "RelativeDocumentMoniker": "LubaEngine\\Components\\ImGUIComponents\\UIComponentList.cs",
-              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\ImGUIComponents\\UIComponentList.cs",
-              "RelativeToolTip": "LubaEngine\\Components\\ImGUIComponents\\UIComponentList.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAALcAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T06:55:41.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RenderQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\RenderQuery.cs",
-              "RelativeDocumentMoniker": "LubaEngine\\Types\\RenderQuery.cs",
-              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\RenderQuery.cs",
-              "RelativeToolTip": "LubaEngine\\Types\\RenderQuery.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T06:55:39.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AssetManager.cs",
-              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Static\\AssetManager.cs",
-              "RelativeDocumentMoniker": "LubaEngine\\Static\\AssetManager.cs",
-              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Static\\AssetManager.cs",
-              "RelativeToolTip": "LubaEngine\\Static\\AssetManager.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAowGsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T21:57:44.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 4,
               "Title": "Camera.cs",
               "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Camera.cs",
               "RelativeDocumentMoniker": "LubaEngine\\Types\\Camera.cs",
               "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Camera.cs",
               "RelativeToolTip": "LubaEngine\\Types\\Camera.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAIA1wGEAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAcwGoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-29T06:55:37.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 11,
+              "Title": "AssetManager.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Static\\AssetManager.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Static\\AssetManager.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Static\\AssetManager.cs",
+              "RelativeToolTip": "LubaEngine\\Static\\AssetManager.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwG8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T21:57:44.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "TestScene.cs",
               "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\RockmanExGame\\TestScene.cs",
               "RelativeDocumentMoniker": "RockmanExGame\\TestScene.cs",
               "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\RockmanExGame\\TestScene.cs",
               "RelativeToolTip": "RockmanExGame\\TestScene.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAswGYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T23:42:47.834Z"
+              "WhenOpened": "2026-09-28T23:42:47.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Entity.cs",
-              "RelativeDocumentMoniker": "LubaEngine\\Types\\Entity.cs",
-              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Entity.cs",
-              "RelativeToolTip": "LubaEngine\\Types\\Entity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\RockmanExGame\\Program.cs",
+              "RelativeDocumentMoniker": "RockmanExGame\\Program.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\RockmanExGame\\Program.cs",
+              "RelativeToolTip": "RockmanExGame\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwCQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T06:55:38.272Z"
+              "WhenOpened": "2026-09-28T23:42:30.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SpriteResource.cs",
-              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\SpriteResource.cs",
-              "RelativeDocumentMoniker": "LubaEngine\\Types\\SpriteResource.cs",
-              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\SpriteResource.cs",
-              "RelativeToolTip": "LubaEngine\\Types\\SpriteResource.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAUwGUAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "ConsoleManager.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\ConsoleManager.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Managers\\ConsoleManager.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\ConsoleManager.cs",
+              "RelativeToolTip": "LubaEngine\\Managers\\ConsoleManager.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAADgv1sAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T21:57:17.848Z",
+              "WhenOpened": "2026-09-29T22:17:58.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BackgroundManager.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\BackgroundManager.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Managers\\BackgroundManager.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\BackgroundManager.cs",
+              "RelativeToolTip": "LubaEngine\\Managers\\BackgroundManager.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAswE4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T08:03:40.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BackgroundRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\EntityComponents\\BackgroundRenderer.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Components\\EntityComponents\\BackgroundRenderer.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\EntityComponents\\BackgroundRenderer.cs",
+              "RelativeToolTip": "LubaEngine\\Components\\EntityComponents\\BackgroundRenderer.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAqwJIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T23:40:21.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Utils.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Utils.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Utils.cs",
+              "RelativeToolTip": "LubaEngine\\Utils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T06:49:19.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SBVector2.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\SBVector2.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Types\\SBVector2.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\SBVector2.cs",
+              "RelativeToolTip": "LubaEngine\\Types\\SBVector2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T10:28:26.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EntityManager.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\EntityManager.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Managers\\EntityManager.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\EntityManager.cs",
+              "RelativeToolTip": "LubaEngine\\Managers\\EntityManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T22:17:47.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Entity.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Types\\Entity.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Entity.cs",
+              "RelativeToolTip": "LubaEngine\\Types\\Entity.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAqwEUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T06:55:38.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\InputManager.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Managers\\InputManager.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Managers\\InputManager.cs",
+              "RelativeToolTip": "LubaEngine\\Managers\\InputManager.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAD0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T23:31:31.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SpriteAnimator.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\EntityComponents\\SpriteAnimator.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Components\\EntityComponents\\SpriteAnimator.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\EntityComponents\\SpriteAnimator.cs",
+              "RelativeToolTip": "LubaEngine\\Components\\EntityComponents\\SpriteAnimator.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAA2wHMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T23:40:26.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StaticCore.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Static\\StaticCore.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Static\\StaticCore.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Static\\StaticCore.cs",
+              "RelativeToolTip": "LubaEngine\\Static\\StaticCore.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T14:34:13.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Binding.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Binding.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Types\\Binding.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Binding.cs",
+              "RelativeToolTip": "LubaEngine\\Types\\Binding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T05:55:39.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Material.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Material.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Types\\Material.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Material.cs",
+              "RelativeToolTip": "LubaEngine\\Types\\Material.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T05:55:31.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Log.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Types\\Log.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Log.cs",
+              "RelativeToolTip": "LubaEngine\\Types\\Log.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T09:42:07.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PaletteMaterial.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\PaletteMaterial.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Types\\PaletteMaterial.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\PaletteMaterial.cs",
+              "RelativeToolTip": "LubaEngine\\Types\\PaletteMaterial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T23:42:27.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RenderQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\RenderQuery.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Types\\RenderQuery.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\RenderQuery.cs",
+              "RelativeToolTip": "LubaEngine\\Types\\RenderQuery.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T06:55:39.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BackgroundData.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\BackgroundData.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Types\\BackgroundData.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\BackgroundData.cs",
+              "RelativeToolTip": "LubaEngine\\Types\\BackgroundData.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAEwBQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T08:04:50.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ConsoleUI.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\ImGUIComponents\\ConsoleUI.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Components\\ImGUIComponents\\ConsoleUI.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\ImGUIComponents\\ConsoleUI.cs",
+              "RelativeToolTip": "LubaEngine\\Components\\ImGUIComponents\\ConsoleUI.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwEAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T06:46:47.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UIComponentList.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\ImGUIComponents\\UIComponentList.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Components\\ImGUIComponents\\UIComponentList.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Components\\ImGUIComponents\\UIComponentList.cs",
+              "RelativeToolTip": "LubaEngine\\Components\\ImGUIComponents\\UIComponentList.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwLcAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T06:55:41.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "Scene.cs",
               "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Scene.cs",
               "RelativeDocumentMoniker": "LubaEngine\\Types\\Scene.cs",
@@ -373,15 +566,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "PaletteMaterial.cs",
-              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\PaletteMaterial.cs",
-              "RelativeDocumentMoniker": "LubaEngine\\Types\\PaletteMaterial.cs",
-              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\PaletteMaterial.cs",
-              "RelativeToolTip": "LubaEngine\\Types\\PaletteMaterial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 32,
+              "Title": "RaylibLogBridge.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\RaylibLogBridge.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\RaylibLogBridge.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\RaylibLogBridge.cs",
+              "RelativeToolTip": "LubaEngine\\RaylibLogBridge.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T23:42:27.98Z"
+              "WhenOpened": "2026-09-29T23:30:16.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EngineProperties.cs",
+              "DocumentMoniker": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Core\\EngineProperties.cs",
+              "RelativeDocumentMoniker": "LubaEngine\\Types\\Core\\EngineProperties.cs",
+              "ToolTip": "C:\\Users\\Luba\\Documents\\GitHub\\LubaEngine\\LubaEngine\\Types\\Core\\EngineProperties.cs",
+              "RelativeToolTip": "LubaEngine\\Types\\Core\\EngineProperties.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T23:44:56.729Z"
             }
           ]
         }

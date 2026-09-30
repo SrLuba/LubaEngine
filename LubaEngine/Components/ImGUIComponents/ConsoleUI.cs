@@ -50,29 +50,41 @@ namespace LubaEngine.Components.ImGUIComponents
         {
             if (!show) return;
             ImGui.Begin("LE - Console");
-            ImGui.TextColored(new Vector4(.9f, .9f, 0f, 0.9f), "Luba Engine v0.0.0.1a");
+
+
+            // Top Bar
+            ImGui.TextColored(new Vector4(.9f, .9f, 0f, 0.9f), $"Luba Engine v0.0.0.1a - Loaded: {EngineCore.ctx.name}");
+
             ImGui.SameLine();
-            string text = $"{checksum}";
+            string text = $"{checksum}"; // Checksum
             float width = ImGui.CalcTextSize(text).X;
             ImGui.SetCursorPosX(ImGui.GetCursorPosX() + ImGui.GetContentRegionAvail().X - width);
             ImGui.TextColored(new Vector4(.9f, .9f, 0f, 0.9f), text);
+
+            ImGui.TextColored(new Vector4(.9f, .9f, 0f, 0.9f), $"FPS: {EngineCore.fps}");
+            ImGui.SameLine();
+
+            ImGui.TextColored(new Vector4(.9f, .9f, 0f, 0.9f), $"| PC: {EngineCore.programCounter}");
             ImGui.Separator();
+
+            // Console Outputs
             ImGui.BeginChild(
                 "ConsoleOutput",
                 new Vector2(0, -35),
                 ImGuiChildFlags.None);
 
+            // Log Display
+            if (consoleManager.showIntlog) { 
+                foreach (LubaEngine.Types.Log log in Logger.logs)
+                {
+                    ImGui.TextColored(new Vector4(.6f, .6f, .6f, 6f), log.data);
+                }
+            }
             foreach (Log log in consoleManager.logs)
             {
                 ImGui.TextColored(log.color, log.data);
-                ImGui.Separator();
-
             }
 
-            foreach (LubaEngine.Types.Log log in Logger.logs)
-            {
-                ImGui.TextColored(new Vector4(.6f, .6f, .6f, 6f), log.data);
-            }
             if (autoScroll &&
                 ImGui.GetScrollY() >= ImGui.GetScrollMaxY())
             {
@@ -80,11 +92,6 @@ namespace LubaEngine.Components.ImGUIComponents
             }
 
             ImGui.EndChild();
-
-            // -----------------------------
-            // Input
-            // -----------------------------
-
             ImGui.Separator();
             if (focus)
             {

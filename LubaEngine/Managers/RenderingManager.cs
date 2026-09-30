@@ -1,11 +1,12 @@
-﻿using Raylib_cs;
+﻿using ImGuiNET;
 using LubaEngine.Components;
 using LubaEngine.Components.ImGUIComponents;
+using LubaEngine.Types;
+using Raylib_cs;
 using System;
 using System.Collections.Generic;
 using System.Numerics;
 using System.Text;
-using LubaEngine.Types;
 
 
 namespace LubaEngine.Rendering
@@ -33,7 +34,7 @@ namespace LubaEngine.Rendering
             AddCamera(debugCamera);
         }
 
-        public void UnlinkedUpdate()
+        public void FrameUpdate()
         {
 
         }
@@ -144,7 +145,7 @@ namespace LubaEngine.Rendering
             Logger.Log($"Rendering Manager {this.GetType().FullName} - Added Camera {this.cameras.Count-1}");
 
         }
-        public void Update()
+        public void Tick()
         {
           
           
@@ -153,13 +154,53 @@ namespace LubaEngine.Rendering
         {
             if (Camera.debugCamera != null && Camera.debugCamera.enabled)
             {
-                float x = Camera.main.position.X - (Camera.main.renderTexture.Texture.Width / 2);
-                float y = Camera.main.position.Y - (Camera.main.renderTexture.Texture.Height / 2);
+
+                float wheel = Raylib.GetMouseWheelMove();
+                if (wheel > 0)
+                {
+                    Camera.debugCamera.zoom += .1f;
+
+                }
+                else if (wheel < 0)
+                {
+                    Camera.debugCamera.zoom -= .1f;
+                    if (Camera.debugCamera.zoom < .9f) Camera.debugCamera.zoom = .9f;
+                }
+                ImGui.GetIO().ConfigFlags |= ImGuiConfigFlags.NoMouseCursorChange;
+                if (Raylib.IsMouseButtonDown(MouseButton.Right))
+                {
+                    Vector2 delta = Raylib.GetMouseDelta();
+                    delta /= Camera.debugCamera.scale * Camera.debugCamera.zoom;
+                    Camera.debugCamera.position += new SBVector2((int)(-delta.X * 256), (int)(-delta.Y * 256));
+                    Raylib.SetMouseCursor(MouseCursor.ResizeAll);
+                }
+                else { Raylib.SetMouseCursor(MouseCursor.Default); }
+           
+
+
+                float x = Camera.main.position.PixelX - (Camera.main.renderTexture.Texture.Width / 2);
+                float y = Camera.main.position.PixelY - (Camera.main.renderTexture.Texture.Height / 2);
                 float x2 = Camera.main.renderTexture.Texture.Width;
                 float y2 = Camera.main.renderTexture.Texture.Height;
 
                 QuickDrawBox(new Vector2(x, y), new Vector2(x2, y2), Color.Gold, 2, Camera.debugCamera.id);
-                Camera.debugCamera.position = Camera.main.position;
+                Camera cam = Camera.debugCamera;
+
+                int left = (int)(cam.position.PixelX - cam.resolution.X / 2);
+                int right = (int)(cam.position.PixelX + cam.resolution.X / 2);
+                int top = (int)(cam.position.PixelY - cam.resolution.Y / 2);
+                int bottom = (int)(cam.position.PixelY + cam.resolution.Y / 2);
+
+                int cell = 16;
+                int startX = (int)MathF.Floor(left / 16f) * 16; 
+                int startY = (int)MathF.Floor(top / 16f) * 16;
+
+                for (int xX = startX; xX <= right; xX += cell)
+                    QuickDrawLine(new Vector2(xX, top), new Vector2(xX, bottom), new Color(1f,.5f,.5f,.04f * Camera.debugCamera.zoom), 1, Camera.debugCamera.id);
+
+                for (int yY = startY; yY <= bottom; yY += cell)
+                    QuickDrawLine(new Vector2(left, yY), new Vector2(right, yY), new Color(1f, .5f, .5f, .04f * Camera.debugCamera.zoom), 1, Camera.debugCamera.id);
+
             }
             for (int i = 0; i < cameras.Count; i++)
             {
